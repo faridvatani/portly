@@ -1,8 +1,7 @@
-import Button from "@/components/Button";
-import { portfolioProjects } from "@/data/data";
 import Link from "next/link";
-import { ArrowUpRightIcon, CheckCircleIcon, GrainImage } from "@/assets";
 import Image from "next/image";
+import { portfolioProjects } from "@/data/data";
+import { ArrowUpRightIcon, CheckCircleIcon, GrainImage } from "@/assets";
 
 export const Projects = () => {
   return (
@@ -46,21 +45,19 @@ export const Projects = () => {
                     {project.results.map((result, index) => (
                       <li
                         key={index}
-                        className="flex gap-2 text-sm md:text-base text-shite/50"
+                        className="flex gap-2 text-sm md:text-base text-white/50"
                       >
                         <CheckCircleIcon className="size-5 md:size-6" />
                         <span>{result.title}</span>
                       </li>
                     ))}
                   </ul>
-                  <Link href={project.link}>
-                    <Button
-                      variant="secondary"
-                      className="bg-white text-gray-950 h-12 w-full font-semibold rounded-xl inline-flex justify-center items-center gap-2 mt-8 md:w-auto px-6"
-                    >
-                      <span className="font-semibold">Visit Live Site</span>
-                      <ArrowUpRightIcon className="size-4" />
-                    </Button>
+                  <Link
+                    href={project.link}
+                    className="btn btn-secondary text-gray-950 justify-center w-full mt-8 md:w-auto"
+                  >
+                    <span className="font-semibold">Visit Live Site</span>
+                    <ArrowUpRightIcon className="size-4" />
                   </Link>
                 </div>
                 <div className="relative">

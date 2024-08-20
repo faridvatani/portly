@@ -1,4 +1,7 @@
 import Image from "next/image";
+import Button from "@/components/Button";
+import HeroOrbit from "@/components/HeroOrbit";
+import HeroRing from "@/components/HeroRing";
 import {
   EmojiComputerImage,
   ArrowDownIcon,
@@ -6,9 +9,6 @@ import {
   StarIcon,
   SprakleIcon,
 } from "@/assets";
-import Button from "@/components/Button";
-import HeroOrbit from "@/components/HeroOrbit";
-import HeroRing from "@/components/HeroRing";
 
 export const Hero = () => {
   return (
@@ -64,7 +64,7 @@ export const Hero = () => {
             className="size-[100px]"
           />
           <div className="inline-flex items-center gap-4 px-4 py-1.5 bg-gray-950 border border-gray-800 rounded-lg">
-            <div className="bg-green-500 size-2.5 rounded-full"></div>
+            <div className="bg-green-500 size-2.5 rounded-full animate-pulse"></div>
             <span className="text-sm font-medium">
               Available for new projects
             </span>
