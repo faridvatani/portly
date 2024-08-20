@@ -5,7 +5,12 @@ interface HeroRingProps {
 }
 
 const HeroRing: FC<HeroRingProps> = ({ size }) => {
-  return <div className={`hero-ring size-[${size}px]`}></div>;
+  return (
+    <div
+      className="hero-ring"
+      style={{ width: `${size}px`, height: `${size}px` }}
+    ></div>
+  );
 };
 
 export default HeroRing;
