@@ -1,7 +1,7 @@
 import {
-  showcase1,
-  showcase2,
-  showcase3,
+  Showcase1,
+  Showcase2,
+  Showcase3,
   Avatar1,
   Avatar2,
   Avatar3,
@@ -9,7 +9,7 @@ import {
   Avatar5,
 } from "@/assets";
 
-const portfolioProjects = [
+export const portfolioProjects = [
   {
     company: "Acme Corp",
     year: "2022",
@@ -20,7 +20,7 @@ const portfolioProjects = [
       { title: "Increased mobile traffic by 35%" },
     ],
     link: "#",
-    image: showcase3,
+    image: Showcase3,
   },
   {
     company: "Innovative Co",
@@ -32,7 +32,7 @@ const portfolioProjects = [
       { title: "Increased brand awareness by 15%" },
     ],
     link: "#",
-    image: showcase2,
+    image: Showcase2,
   },
   {
     company: "Quantum Dynamics",
@@ -44,11 +44,11 @@ const portfolioProjects = [
       { title: "Increased mobile traffic by 35%" },
     ],
     link: "#",
-    image: showcase1,
+    image: Showcase1,
   },
 ];
 
-const testimonials = [
+export const testimonials = [
   {
     name: "Alex Turner",
     position: "Marketing Manager @ TechStartups",
