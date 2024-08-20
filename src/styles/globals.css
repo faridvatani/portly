@@ -10,4 +10,22 @@
   .nav-item.active {
     @apply bg-white text-gray-900 hover:bg-white/70 hover:text-gray-900;
   }
+
+  .hero-ring {
+    @apply absolute inset-0 border-2 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 rounded-full border-emerald-300/5 shadow-[0_0_80px_inset] shadow-emerald-300/5;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply inline-flex items-center border gap-2 px-6 h-12 rounded-xl;
+  }
+
+  .btn-primary {
+    @apply border-white/15;
+  }
+
+  .btn-secondary {
+    @apply border-white bg-white text-gray-900;
+  }
 }
