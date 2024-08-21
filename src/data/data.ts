@@ -48,6 +48,20 @@ export const portfolioProjects = [
   },
 ];
 
+export const tapeWords = [
+  "Performant",
+  "Accessible",
+  "Secure",
+  "Interactive",
+  "Scalable",
+  "User Friendly",
+  "Responsive",
+  "Maintainable",
+  "Search Optimized",
+  "usable",
+  "Reliable",
+];
+
 export const testimonials = [
   {
     name: "Alex Turner",
