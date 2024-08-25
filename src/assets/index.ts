@@ -7,7 +7,7 @@ export { default as GithubIcon } from "@/assets/icons/github.svg";
 export { default as HtmlIcon } from "@/assets/icons/html5.svg";
 export { default as ReactIcon } from "@/assets/icons/react.svg";
 export { default as SprakleIcon } from "@/assets/icons/sparkle.svg";
-export { default as SquareIcon } from "@/assets/icons/square-js.svg";
+export { default as JavascriptIcon } from "@/assets/icons/square-js.svg";
 export { default as StarIcon } from "@/assets/icons/star.svg";
 export { default as BookCoverImage } from "@/assets/images/book-cover.png";
 export { default as GrainImage } from "@/assets/images/grain.jpg";

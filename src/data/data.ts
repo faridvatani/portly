@@ -7,6 +7,12 @@ import {
   Avatar3,
   Avatar4,
   Avatar5,
+  JavascriptIcon,
+  HtmlIcon,
+  CssIcon,
+  ReactIcon,
+  ChromeIcon,
+  GithubIcon,
 } from "@/assets";
 
 export const portfolioProjects = [
@@ -93,4 +99,23 @@ export const testimonials = [
     text: "Alex's work on our website has been nothing short of exceptional. He's a talented developer who is also a great communicator. We highly recommend him.",
     avatar: Avatar5,
   },
+];
+
+export const toolBoxItems = [
+  { title: "Javascript", iconType: JavascriptIcon },
+  { title: "HTML5", iconType: HtmlIcon },
+  { title: "CSS3", iconType: CssIcon },
+  { title: "React", iconType: ReactIcon },
+  { title: "Chorome", iconType: ChromeIcon },
+  { title: "Github", iconType: GithubIcon },
+];
+
+export const hobbies = [
+  { title: "Painting", emoji: "🎨", left: "5%", top: "5%" },
+  { title: "Photography", emoji: "📷", left: "50%", top: "5%" },
+  { title: "Hiking", emoji: "🥾", left: "35%", top: "40%" },
+  { title: "Gaming", emoji: "🎮", left: "10%", top: "35%" },
+  { title: "Music", emoji: "🎵", left: "70%", top: "45%" },
+  { title: "Fitness", emoji: "🏋️‍♀️", left: "5%", top: "65%" },
+  { title: "Reading", emoji: "📚", left: "45%", top: "70%" },
 ];
