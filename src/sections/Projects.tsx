@@ -18,7 +18,8 @@ export const Projects = () => {
           {portfolioProjects.map((project, index) => (
             <Card
               key={index}
-              className="px-8 pt-8 pb-0 md:px-10 md:pt-12 lg:px-20 lg:pt-16"
+              className="sticky px-8 pt-8 pb-0 md:px-10 md:pt-12 lg:px-20 lg:pt-16"
+              style={{ top: `calc(64px + ${index * 40}px)` }}
             >
               <div className="lg:grid lg:grid-cols-2 lg:gap-16">
                 <div className="lg:pb-16">
