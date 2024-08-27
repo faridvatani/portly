@@ -27,6 +27,8 @@ const config: Config = {
       animation: {
         "ping-long": "ping-long 1s ease-in-out infinite",
         "move-left": "move-left 1s linear infinite",
+        "move-right": "move-right 1s linear infinite",
+        "book-hover": "book-hover 0.5s ease-in-out",
       },
       keyframes: {
         "ping-long": {
@@ -42,6 +44,19 @@ const config: Config = {
           "100%": {
             transform: "translateX(-50%)",
           },
+        },
+        "move-right": {
+          "0%": {
+            transform: "translateX(-50)",
+          },
+          "100%": {
+            transform: "translateX(0%)",
+          },
+        },
+        "book-hover": {
+          "0%": { transform: "scale(1)" },
+          "50%": { transform: "scale(1.1)" },
+          "100%": { transform: "scale(1)" },
         },
       },
     },
