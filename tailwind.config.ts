@@ -24,6 +24,17 @@ const config: Config = {
         sans: "var(--font-sans)",
         serif: "var(--font-serif)",
       },
+      animation: {
+        "ping-long": "ping-long 1s ease-in-out infinite",
+      },
+      keyframes: {
+        "ping-long": {
+          "75%, 100%": {
+            transform: "scale(3)",
+            opacity: "0",
+          },
+        },
+      },
     },
   },
   plugins: [],
