@@ -1,8 +1,38 @@
+# Portly
+
+<img src="Screenshot.png" alt="Portly screenshot" />
+
+A stunning and modern React portfolio using Next.js, TailwindCSS, and Framer Motion. This project showcases a sleek, dark-themed design with smooth animations, ensuring a responsive and accessible user experience across all devices and browsers. Built with SEO optimization in mind, Portly is easy to customize and extend to fit your specific needs.
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+
+## Features
+
+- Modern, dark design
+- Animated with Framer Motion
+- Responsive layout
+- SEO-optimized
+- Cross-Browser Compatibility
+- Accessibility
+- Easy to Customize
 
 ## Getting Started
 
-First, run the development server:
+First, To install the project dependencies, run:
+
+```bash
+npm install
+# or
+yarn install
+# or
+pnpm install
+# or
+bun install
+```
+
+## Usage
+
+After installation, you can start the development server:
 
 ```bash
 npm run dev
@@ -18,19 +48,17 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, Calistoga.
 
-## Learn More
+## Design
 
-To learn more about Next.js, take a look at the following resources:
+This design was heavily inspired by the wonderful Personalfolio Portfolio Template design located here: [View Figma File
+](https://www.figma.com/community/file/1297484254996536416)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Contributing
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Contributions are welcome! Please read the [contributing guidelines](CONTRIBUTING.md) first.
 
-## Deploy on Vercel
+## License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
