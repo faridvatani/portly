@@ -3,7 +3,7 @@ import Button from "@/components/Button";
 
 export const CallToAction = () => {
   return (
-    <section className="py-16 pt-12 lg:py-24 lg:pt-20">
+    <section id="contact" className="py-16 pt-12 lg:py-24 lg:pt-20">
       <div className="container">
         <div className="relative py-8 px-10 text-center md:text-left bg-gradient-to-r from-emerald-300 to-sky-400 text-gray-900 rounded-3xl overflow-hidden z-0">
           <div
