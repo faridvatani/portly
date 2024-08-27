@@ -20,10 +20,11 @@ export const Footer = () => {
               <Link
                 href={item.href}
                 key={index}
-                className="inline-flex items-center gap-1.5"
+                className="inline-flex items-center gap-1.5 group relative cursor-pointer"
               >
                 <span className="font-semibold">{item.title}</span>
                 <ArrowUpRightIcon className="size-4" />
+                <span className="absolute -bottom-1 left-0 w-full h-[1px] bg-transparent group-hover:bg-white transition-all duration-300"></span>
               </Link>
             ))}
           </nav>
